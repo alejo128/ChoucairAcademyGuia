@@ -85,27 +85,72 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@76e25e7c
+<pre>REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@414ed047
 
-1 Scenarios (?[33m1 undefined?[0m)
-3 Steps (?[36m1 skipped?[0m, ?[33m2 undefined?[0m)
-0m0,314s
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/academyChoucair.feature:7 ?[0m# Search for a automation course
 
+1 Scenarios (?[31m1 failed?[0m)
+3 Steps (?[31m1 failed?[0m, ?[36m2 skipped?[0m)
+0m4,232s
 
-You can implement missing steps with the snippets below:
-
-@Given(&quot;^than Alejandro wants to learn automation at the academy Choucair$&quot;)
-public void thanAlejandroWantsToLearnAutomationAtTheAcademyChoucair() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-
-@Then(&quot;^he finds the course called resources Recursos Automatización Bancolombia$&quot;)
-public void heFindsTheCourseCalledResourcesRecursosAutomatizaciónBancolombia() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
+net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEJO-PC', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Alejo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7278922b03fb9565889e67f29e789332
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:172)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:902)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:803)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:791)
+	at net.serenitybdd.screenplay.actions.OpenPage.performAs(OpenPage.java:22)
+	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$RnSArOWL.performAs$accessor$ahcTWeSZ(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$RnSArOWL.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at co.com.choucair.certification.proyectobase.tasks.OpenUp.performAs(OpenUp.java:17)
+	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$lzvYbNF8.performAs$accessor$dJhHuYyO(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$lzvYbNF8.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:158)
+	at co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.thanAlejandroWantsToLearnAutomationAtTheAcademyChoucair(ChoucairAcademyStepDefinitions.java:24)
+	at ?.than Alejandro wants to learn automation at the academy Choucair(src/test/resources/features/academyChoucair.feature:8)
 
 </pre>
 </span>
@@ -154,7 +199,7 @@ TEST STARTED: Search for a automation course
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at 13 ene. 2022 16:41:37</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 13 ene. 2022 17:35:36</p>
 </div>
 </div>
 </body>

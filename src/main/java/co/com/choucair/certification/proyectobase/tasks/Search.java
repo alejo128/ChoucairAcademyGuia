@@ -25,6 +25,6 @@ public class Search implements Task {
                 Click.on(SearchCoursePage.BUTTON_GO),
                 Click.on(SearchCoursePage.SELECT_COURSE)
         );
-        
+
     }
 }
