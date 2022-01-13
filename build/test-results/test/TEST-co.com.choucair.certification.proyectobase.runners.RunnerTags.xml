@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="co.com.choucair.certification.proyectobase.runners.RunnerTags" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ALEJO-PC" time="0.0">
   <properties/>
-  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@de5da47
+  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@76e25e7c
 
 1 Scenarios (?[33m1 undefined?[0m)
-3 Steps (?[33m3 undefined?[0m)
-0m0,318s
+3 Steps (?[36m1 skipped?[0m, ?[33m2 undefined?[0m)
+0m0,314s
 
 
 You can implement missing steps with the snippets below:
@@ -16,12 +16,6 @@ public void thanAlejandroWantsToLearnAutomationAtTheAcademyChoucair() {
     throw new PendingException();
 }
 
-
-@When("^he search for the course Recursos Automatización Bancolombia on the choucair academy platform$")
-public void heSearchForTheCourseRecursosAutomatizaciónBancolombiaOnTheChoucairAcademyPlatform() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
 
 @Then("^he finds the course called resources Recursos Automatización Bancolombia$")
 public void heFindsTheCourseCalledResourcesRecursosAutomatizaciónBancolombia() {
