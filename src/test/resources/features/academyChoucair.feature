@@ -6,5 +6,11 @@ Feature: Academy Choucair
   @scenario1
   Scenario: Search for a automation course
     Given than Alejandro wants to learn automation at the academy Choucair
-    When he search for the course Recursos Automatización Bancolombia on the choucair academy platform
-    Then he finds the course called resources Recursos Automatización Bancolombia
+    | strUser     |  strPassword |
+    | yourUser   |   yourPassword    |
+    When he search for the course on the choucair academy platform
+    | strCourse   |
+    | Metodología Bancolombia   |
+    Then he finds the course called
+    | strCourse                 |
+    | Metodología Bancolombia   |

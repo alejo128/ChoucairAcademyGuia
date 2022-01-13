@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="co.com.choucair.certification.proyectobase.runners.RunnerTags" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ALEJO-PC" time="0.0">
   <properties/>
-  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@414ed047
+  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@29920f46
 
 ?[31mFailed scenarios:?[0m
 ?[31msrc/test/resources/features/academyChoucair.feature:7 ?[0m# Search for a automation course
 
 1 Scenarios (?[31m1 failed?[0m)
-3 Steps (?[31m1 failed?[0m, ?[36m2 skipped?[0m)
-0m4,232s
+3 Steps (?[31m1 failed?[0m, ?[33m2 undefined?[0m)
+0m4,345s
 
 net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: unknown error: net::ERR_NAME_NOT_RESOLVED
   (Session info: chrome=97.0.4692.71)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ALEJO-PC', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Alejo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7278922b03fb9565889e67f29e789332
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Alejo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6277932278208d48adb86c97c6b7718
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -33,7 +33,7 @@ Session ID: 7278922b03fb9565889e67f29e789332
 	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:803)
 	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:791)
 	at net.serenitybdd.screenplay.actions.OpenPage.performAs(OpenPage.java:22)
-	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$RnSArOWL.performAs$accessor$ahcTWeSZ(Unknown Source)
+	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$CmdwWpKh.performAs$accessor$Z2UHVWH5(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -44,12 +44,12 @@ Session ID: 7278922b03fb9565889e67f29e789332
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$RnSArOWL.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$CmdwWpKh.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
 	at co.com.choucair.certification.proyectobase.tasks.OpenUp.performAs(OpenUp.java:17)
-	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$lzvYbNF8.performAs$accessor$dJhHuYyO(Unknown Source)
+	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$v5IWf9mz.performAs$accessor$yOLGMl4m(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -60,13 +60,39 @@ Session ID: 7278922b03fb9565889e67f29e789332
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$lzvYbNF8.performAs(Unknown Source)
+	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$v5IWf9mz.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
 	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:158)
-	at co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.thanAlejandroWantsToLearnAutomationAtTheAcademyChoucair(ChoucairAcademyStepDefinitions.java:24)
+	at co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.thanAlejandroWantsToLearnAutomationAtTheAcademyChoucair(ChoucairAcademyStepDefinitions.java:28)
 	at ?.than Alejandro wants to learn automation at the academy Choucair(src/test/resources/features/academyChoucair.feature:8)
+
+
+You can implement missing steps with the snippets below:
+
+@When("^he search for the course on the choucair academy platform$")
+public void heSearchForTheCourseOnTheChoucairAcademyPlatform(DataTable arg1) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+    // E,K,V must be a scalar (String, Integer, Date, enum etc).
+    // Field names for YourType must match the column names in 
+    // your feature file (except for spaces and capitalization).
+    throw new PendingException();
+}
+
+
+@Then("^he finds the course called$")
+public void heFindsTheCourseCalled(DataTable arg1) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+    // E,K,V must be a scalar (String, Integer, Date, enum etc).
+    // Field names for YourType must match the column names in 
+    // your feature file (except for spaces and capitalization).
+    throw new PendingException();
+}
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
